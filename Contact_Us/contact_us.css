@@ -1,0 +1,12 @@
+.mail {
+    font-size: 20px;
+    font-family: 'fantasy';
+    color: #665b7e;
+    /*Text line size*/
+    line-height: 15pt;
+    /*Text line relation*/
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}

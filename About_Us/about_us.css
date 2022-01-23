@@ -1,0 +1,20 @@
+.text {
+    float: left;
+    width: 65%;
+    font-size: 20px;
+    font-family: 'fantasy';
+    color: black;
+    /*Text line size*/
+    line-height: 15pt;
+    /*Text line relation*/
+    line-height: 1.5;
+    text-align: justify;
+    margin: 30px 5px 30px 30px;
+}
+
+.image {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin: 30px 30px 30px 5px;
+}

@@ -1,0 +1,140 @@
+/*Classes Navigation Menu*/
+body {
+    background-color: black;
+}
+
+/* The navbar container */
+.top_nav_bar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    margin-top: 50px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 8px;
+    /*margin Top Right Bottom Left*/
+    margin: 0px 250px 0px 50px;
+    padding-top: 10px;
+}
+
+.links {
+    float: left;
+    display: flex;
+}
+
+/* Navbar links */
+.top_nav_bar a {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding: 10px 10px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.top_nav_bar a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.login_button {
+    float: right;
+    display: block;
+    background-color: #5cb95c;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 4px;
+    /*margin Top Right Bottom Left*/
+    margin: 5px 50px 5px 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.header {
+    color: #665b7e;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    height: 750px;
+    margin: auto;
+    background-color: white;
+}
+
+/*To Align Boxes with same Spaces between Boxes */
+.flex_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    float: left;
+    display: block;
+    width: 30%;
+    height: 600px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orangered;
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+.box_row1 {
+    display: flex;
+    width: 100%;
+    height: 33.333333333%;
+    background-color: orangered;
+}
+
+.text_row1 {
+    display: flex;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+.box_row23 {
+    display: block;
+    width: 100%;
+    height: 33.333333333%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #98918a;
+    margin: auto;
+    color: #98918a;
+    font-size: 22px;
+    text-align: center;
+}
+
+.play_button {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    /* letter-spacing: 4px; */
+    border-style: none;
+    border-radius: 10px;
+    /*margin Top Right Bottom Left*/
+    margin: 100px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Class footer */
+.footer {
+    background-color: orangered;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
